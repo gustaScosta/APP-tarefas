@@ -4,7 +4,7 @@ import pandas as pd
 
 
 
-conn = sqlite3.connect('Aula 18 - Pacotes e Frameworks/tarefas.db', check_same_thread=False)
+conn = sqlite3.connect('tarefas.db', check_same_thread=False)
 c = conn.cursor()
 
 c.execute('''
